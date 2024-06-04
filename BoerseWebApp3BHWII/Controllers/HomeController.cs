@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BoerseWebApp3BHWII.Models;
+using BoerseWebApp3BHWII.Repositories;
 
 namespace BoerseWebApp3BHWII.Controllers;
 
@@ -15,7 +16,10 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        AktienRepository repo = new AktienRepository();
+        List<Aktien> myAktien = repo.GetAllAktien();
+        
+        return View(myAktien);
     }
 
     public IActionResult Privacy()

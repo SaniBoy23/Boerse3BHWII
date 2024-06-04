@@ -4,9 +4,9 @@ public class Aktien
 {
     public int aktienid { get; set; }
     
-    public int aktienkurs { get; set; }
+    public double aktienkurs { get; set; }
     
-    public int aktienname { get; set; }
+    public string aktienname { get; set; }
     
-    public int kurzzeichen { get; set; }
+    public string kurzzeichen { get; set; }
 }

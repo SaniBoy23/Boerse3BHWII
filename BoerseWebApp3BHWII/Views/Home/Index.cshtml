@@ -1,8 +1,39 @@
-﻿@{
+﻿@Model List<Aktien>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Das sind meine Aktien</h1>
+
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Aktienkurs</th>
+        <th>Aktienname</th>
+        <th>Kurzzeichen</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    @{
+        <tr>
+            @foreach (var aktien in Model)
+            {
+
+
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr >
+
+            }
+            }
+    
+    
+    </tbody>
+    
+    
+</table>
