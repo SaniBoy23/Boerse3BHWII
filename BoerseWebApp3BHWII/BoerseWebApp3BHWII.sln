@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoerseWebApp3BHWII", "BoerseWebApp3BHWII.csproj", "{052A9A15-86C2-4607-8B3E-0FD13B6F341D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052A9A15-86C2-4607-8B3E-0FD13B6F341D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052A9A15-86C2-4607-8B3E-0FD13B6F341D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052A9A15-86C2-4607-8B3E-0FD13B6F341D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052A9A15-86C2-4607-8B3E-0FD13B6F341D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
