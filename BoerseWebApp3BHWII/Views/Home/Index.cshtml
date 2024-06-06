@@ -1,4 +1,4 @@
-﻿@Model List<Aktien>
+﻿@model List<Aktien>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -8,32 +8,31 @@
 
 <table>
     <thead>
-    <tr>
-        <th>ID</th>
-        <th>Aktienkurs</th>
-        <th>Aktienname</th>
-        <th>Kurzzeichen</th>
-    </tr>
-    </thead>
-    <tbody>
-    
-    @{
         <tr>
-            @foreach (var aktien in Model)
-            {
-
-
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                </tr >
-
-            }
-            }
+            <th>ID</th>
+            <th>Aktienkurs</th>
+            <th>Aktienname</th>
+            <th>Kurzzeichen</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+        @{
+      
+                @foreach (var aktien in Model)
+                {
     
-    
-    </tbody>
+                    <tr>
+                        <td>@aktien.aktienid</td>
+                        <td>@aktien.aktienkurs</td>
+                        <td>@aktien.aktienname</td>
+                        <td>@aktien.kurzzeichen</td>
+                    </tr>
+                }
+                }
+        
+        
+        </tbody>
     
     
 </table>
