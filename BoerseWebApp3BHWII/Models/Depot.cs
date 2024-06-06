@@ -6,7 +6,7 @@ public class Depot
     
     public int kundenid { get; set; }
     
-    public int gruendungsdatum { get; set; }
+    public DateTime gruendungsdatum { get; set; }
     
-    public int bezeichnung { get; set; }
+    public string bezeichnung { get; set; }
 }

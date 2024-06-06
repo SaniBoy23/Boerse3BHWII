@@ -4,13 +4,13 @@ public class Kunde
 {
     public int kundenid { get; set; }
     
-    public int vorname { get; set; }
+    public string vorname { get; set; }
     
-    public int nachname { get; set; }
+    public string nachname { get; set; }
     
-    public int steueridentifikationsnummer { get; set; }
+    public string steueridentifikationsnummer { get; set; }
     
-    public int mobilnummer { get; set; }
+    public string mobilnummer { get; set; }
     
-    public int email { get; set; }
+    public string email { get; set; }
 }
